@@ -1,4 +1,7 @@
 import React from 'react'
+import { faGithub,  } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEye } from '@fortawesome/free-solid-svg-icons';
 
 function MenuItems({menuItem}) {
     return (
@@ -10,8 +13,8 @@ function MenuItems({menuItem}) {
                             <img src={item.image} alt=""/>
                             <ul className="hover-items">
                                 <li>
-                                    <a href={item.link1}>{item.icon1}</a>
-                                    <a href={item.link2}>{item.icon2}</a>
+                                    <a href={item.link1}><FontAwesomeIcon icon={faEye} className="icon gh" /></a>
+                                    <a href={item.link2}><FontAwesomeIcon icon={faGithub} className="icon gh" /></a>
                                 </li>
                             </ul>
                         </div>

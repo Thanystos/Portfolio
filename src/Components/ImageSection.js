@@ -8,7 +8,6 @@ function ImageSection() {
                 <img src={about} alt=""/>
             </div>
             <div className="about-info">
-                <h4>Je suis<span> Anthony Guichard</span></h4>
                 <p className="about-text">
                 Passionné d'informatique, je n'ai eu de cesse de m'intéresser, en m'autoformant, 
                 au vaste monde de ce dernier. Polyvalent, je possède des connaissances des différentes étapes techniques de la création d’un site ou d’une application web ; 

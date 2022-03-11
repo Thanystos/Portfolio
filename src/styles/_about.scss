@@ -91,9 +91,9 @@
     color: white;
     margin-bottom: 1rem;
     transition: all .3s ease-in-out;
-    &:not(:last-child){
+    
         margin-right: 1rem;
-    }
+    
     &:hover{
         background-color: #037FFF;
     }
